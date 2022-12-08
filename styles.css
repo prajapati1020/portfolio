@@ -1,0 +1,187 @@
+/*Global styles */
+body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+
+html{
+    box-sizing: border-box;
+}
+*,*:before , *:after{
+box-sizing: inherit;
+}
+a{
+    color: darkred;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+   
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+img{
+    width: 300px;
+}
+h1,h2{
+    font-family: 'Caveat' ,cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap{
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.item-details h3 + p{
+    font-style: italic;
+}
+
+
+.item-details h3 ~ p{
+    margin: 0;
+}
+/*profile */
+header{
+ background: #2F3061;  
+    color: #F7FFF7;
+   
+}
+
+/* work Experience */
+
+
+/*projects*/
+.projects{
+    background: #F7FFF7;
+}
+
+.projects a{
+    color: #2F3061;
+    
+}
+.projects .btn{
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background: rgb(47 , 48 ,97,80%);
+}
+
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    margin-bottom: 20px;
+    padding: 25px 0;
+    
+}
+
+.project-item h3{
+    margin-top: 0;
+}
+
+
+/*education*/
+
+.education{
+    background-image: url(../img/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+
+.education p{
+    width: 60%;
+}
+
+a{
+   color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/*footer*/
+footer{
+    background: #343434;
+    color: #F7FFF7;
+   
+}
+.contact-list{
+    list-style-type:none;
+    padding: 0;
+   
+}
+.contact-list a{
+padding:15px;
+    display: inline-block;
+}
+
+
+/* media quiery*/
+
+@media screen and (min-width:750px){
+    .project-item img{
+    float: left;
+    margin-right: 20px;
+}
+    header,footer{
+         text-align: center;
+         text-align: center;
+    }
+    .contact-list{
+         display: flex;
+    justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width:749px){
+    h1{
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+    h1 ,h2{
+        line-height: 1;
+    }
+    .contact-list a{
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
